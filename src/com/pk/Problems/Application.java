@@ -1,6 +1,9 @@
 package com.pk.Problems;
 
+import java.io.FileNotFoundException;
 import java.util.Scanner;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 import com.pk.nodes.NodeL;
 
@@ -45,7 +48,14 @@ public class Application {
 	/**
 	 * @param args
 	 */
-	public static void main(String[] args) {
+	
+	
+	static Logger LOGGER = Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
+	
+	
+	
+	public static void main(String[] args) throws FileNotFoundException {
+		//LOGGER.setLevel(Level.OFF);
 //		int a;
 //
 //		Scanner obj = new Scanner(System.in);
@@ -222,33 +232,33 @@ public class Application {
 //		
 //		q.qsort(0, 4);
 //		
-////		
-////		q.display();
-		
-		Segment obj = new Segment(10);
-		obj.insertArray();
-		obj.buildSegmentTree(0 , 9, 1);
-		obj.buildRangMinSeg(0, 9, 1);
-		obj.buiildRangMaxSeg(0, 9, 1);
-		obj.display();
-		
-	//	System.out.println(obj.query(0, 4, 0, 2, 1));
-		
-	//	System.out.println("###############");
-		
-		//obj.display();
-		
-	//	obj.update(3, 20);
-		
-	//	System.out.println("###############");
-		
-		//System.out.println(obj.findIndex(0, 4, 4, 1));
-		
-		//obj.display();
-		
-		System.out.println(obj.query(0, 9, 0, 4, 1));
-		System.out.println(obj.minimumRangeQuery(0, 9, 2, 4, 1));
-		System.out.println(obj.maximumRangeQuery(0, 9, 0, 9, 1));
+//////		
+//////		q.display();
+//		
+//		Segment obj = new Segment(10);
+//		obj.insertArray();
+//		obj.buildSegmentTree(0 , 9, 1);
+//		obj.buildRangMinSeg(0, 9, 1);
+//		obj.buiildRangMaxSeg(0, 9, 1);
+//		obj.display();
+//		
+//	//	System.out.println(obj.query(0, 4, 0, 2, 1));
+//		
+//	//	System.out.println("###############");
+//		
+//		//obj.display();
+//		
+//	//	obj.update(3, 20);
+//		
+//	//	System.out.println("###############");
+//		
+//		//System.out.println(obj.findIndex(0, 4, 4, 1));
+//		
+//		//obj.display();
+//		
+//		System.out.println(obj.query(0, 9, 0, 4, 1));
+//		System.out.println(obj.minimumRangeQuery(0, 9, 2, 4, 1));
+//		System.out.println(obj.maximumRangeQuery(0, 9, 0, 9, 1));
 		
 //		
 //		Test t = new Test();
@@ -258,6 +268,25 @@ public class Application {
 		
 //		Arrays obj = new Arrays();
 //		System.out.println(obj.myPow(2.0, -1));
+		
+//		Solutions obj = new Solutions();
+//		int[] a = {2,1,2,1,0,0,1};
+//		LOGGER.info("[Application] inside application class");
+//		System.out.println(obj.maxProfit(a));
+//		BackSpaceString obj = new BackSpaceString();
+//		
+//		
+//		
+//		
+//		System.out.println(obj.backspaceCompare("nzp#o#g", "b#nzp#o#g"));
+//		
+//		SlidingWindow obj = new SlidingWindow();
+//		obj.findMaxWindow(4);
+		
+		Bproblems obj = new Bproblems();
+		System.out.println(obj.BRule("a - (b - (x - y - z))"));
+
+		
 	}
 
 }
