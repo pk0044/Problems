@@ -283,10 +283,40 @@ public class Application {
 //		SlidingWindow obj = new SlidingWindow();
 //		obj.findMaxWindow(4);
 		
-		Bproblems obj = new Bproblems();
-		System.out.println(obj.BRule("a - (b - (x - y - z))"));
-
+//		Bproblems obj = new Bproblems();
+//		System.out.println(obj.BRule("a - (b - (x - y - z))"));
 		
+//		SmallestSub obj = new SmallestSub();
+//		obj.findSmallestSubArray();
+		//System.out.println(obj.minStart);
+		//System.out.println(obj.minEnd);
+//		
+//		String name = "purushottam";
+//		/**
+//		 *  urup
+//		 *  upur
+//		 *  
+//		 *  [[0,1],[1,2]]
+//		 */
+//		
+//		int[][] arr = new int[2][2];
+//		
+//		arr[0][0] = 0;
+//		arr[0][1] = 1;
+//		arr[1][0] = 1;
+//		arr[1][1] = 25;
+//		
+//		StringShift obj = new StringShift();
+//		System.out.println(obj.stringShift(name, arr));
+//		
+	
+		ContiguousSubarray obj = new ContiguousSubarray();
+		int[] a = {0,1,1};
+		
+		// 1 -1 1 -1
+		// 1 0 1 0
+		
+		System.out.println(obj.findMaxLength(a));
 	}
 
 }
