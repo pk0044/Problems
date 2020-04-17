@@ -310,13 +310,33 @@ public class Application {
 //		System.out.println(obj.stringShift(name, arr));
 //		
 	
-		ContiguousSubarray obj = new ContiguousSubarray();
-		int[] a = {0,1,1};
+//		ContiguousSubarray obj = new ContiguousSubarray();
+//		int[] a = {0,1,1};
+//		
+//		// 1 -1 1 -1
+//		// 1 0 1 0
+//		
+//		System.out.println(obj.findMaxLength(a));
 		
-		// 1 -1 1 -1
-		// 1 0 1 0
+		Paranthesis obj = new Paranthesis();
+	//	System.out.println(obj.checkValidString("(*(()))((())())*(**(()))((*)()(()))*(())()(())(()"));
+//		System.out.println(obj.checkValidString("(((()*())))((()(((()(()))()**(*)())))())()()*"));
+//		System.out.println(obj.checkValidString("(*(()))((())())*(**(()))((*)()(())	)*(())()(())(()"));
+//		System.out.println(obj.checkValidString("*"));
+//		System.out.println(obj.checkValidString("*)"));
+//		System.out.println(obj.checkValidString("((*)"));
+//		System.out.println(obj.checkValidString("(*)"));
+//		System.out.println(obj.checkValidString("(*))"));
+//		System.out.println(obj.checkValidString("()"));
+//		System.out.println(obj.checkValidString(""));
+//		System.out.println(obj.checkValidString("(((******)))"));
+//		System.out.println(obj.checkValidString("("));
+//		System.out.println(obj.checkValidString(")"));
 		
-		System.out.println(obj.findMaxLength(a));
+		
+		int a[][] = new int[10][5];
+		System.out.println(a.length);
+		System.out.println(a[0].length);
 	}
 
 }
