@@ -320,28 +320,31 @@ public class Application {
 		
 		Paranthesis obj = new Paranthesis();
 	//	System.out.println(obj.checkValidString("(*(()))((())())*(**(()))((*)()(()))*(())()(())(()"));
-//		System.out.println(obj.checkValidString("(((()*())))((()(((()(()))()**(*)())))())()()*"));
-//		System.out.println(obj.checkValidString("(*(()))((())())*(**(()))((*)()(())	)*(())()(())(()"));
-//		System.out.println(obj.checkValidString("*"));
-//		System.out.println(obj.checkValidString("*)"));
-//		System.out.println(obj.checkValidString("((*)"));
-//		System.out.println(obj.checkValidString("(*)"));
-//		System.out.println(obj.checkValidString("(*))"));
-//		System.out.println(obj.checkValidString("()"));
-//		System.out.println(obj.checkValidString(""));
-//		System.out.println(obj.checkValidString("(((******)))"));
-//		System.out.println(obj.checkValidString("("));
-//		System.out.println(obj.checkValidString(")"));
+		System.out.println(obj.checkValidString("((*"));
+		System.out.println(obj.checkValidString("(((()*())))((()(((()(()))()**(*)())))())()()*"));
+		System.out.println(obj.checkValidString("(*(()))((())())*(**(()))((*)()(())	)*(())()(())(()"));
+		System.out.println(obj.checkValidString("*"));
+		System.out.println(obj.checkValidString("*)"));
+		System.out.println(obj.checkValidString("((*)"));
+		System.out.println(obj.checkValidString("(*)"));
+		System.out.println(obj.checkValidString("(*))"));
+		System.out.println(obj.checkValidString("()"));
+		System.out.println(obj.checkValidString(""));
+		System.out.println(obj.checkValidString("(((******)))"));
+		System.out.println(obj.checkValidString("("));
+		System.out.println(obj.checkValidString(")"));
+		System.out.println(obj.checkValidString("(*()"));
+		System.out.println(obj.checkValidString("(*())(()*((*(((()*())*()())(((((()*)()(((((()()))*)()))((())((((())))**(())()()()())((())(*())()*)()"));
 		
 		
 //		int a[][] = new int[10][5];
 //		System.out.println(a.length);
 //		System.out.println(a[0].length);
 		
-		char[][] a = {{'1','0','1','1','1'},{'1','0','1','0','1'},{'1','1','1','0','1'}};
-		
-		NumberOfIsland obj1 = new NumberOfIsland();
-		System.out.println(obj1.numIslands(a));
+//		char[][] a = {{'1','0','1','1','1'},{'1','0','1','0','1'},{'1','1','1','0','1'}};
+//		
+//		NumberOfIsland obj1 = new NumberOfIsland();
+//		System.out.println(obj1.numIslands(a));
 	}
 
 }
