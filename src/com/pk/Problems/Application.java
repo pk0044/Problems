@@ -317,24 +317,24 @@ public class Application {
 //		// 1 0 1 0
 //		
 //		System.out.println(obj.findMaxLength(a));
-		
-		Paranthesis obj = new Paranthesis();
-	//	System.out.println(obj.checkValidString("(*(()))((())())*(**(()))((*)()(()))*(())()(())(()"));
-		System.out.println(obj.checkValidString("((*"));
-		System.out.println(obj.checkValidString("(((()*())))((()(((()(()))()**(*)())))())()()*"));
-		System.out.println(obj.checkValidString("(*(()))((())())*(**(()))((*)()(())	)*(())()(())(()"));
-		System.out.println(obj.checkValidString("*"));
-		System.out.println(obj.checkValidString("*)"));
-		System.out.println(obj.checkValidString("((*)"));
-		System.out.println(obj.checkValidString("(*)"));
-		System.out.println(obj.checkValidString("(*))"));
-		System.out.println(obj.checkValidString("()"));
-		System.out.println(obj.checkValidString(""));
-		System.out.println(obj.checkValidString("(((******)))"));
-		System.out.println(obj.checkValidString("("));
-		System.out.println(obj.checkValidString(")"));
-		System.out.println(obj.checkValidString("(*()"));
-		System.out.println(obj.checkValidString("(*())(()*((*(((()*())*()())(((((()*)()(((((()()))*)()))((())((((())))**(())()()()())((())(*())()*)()"));
+//		
+//		Paranthesis obj = new Paranthesis();
+//	//	System.out.println(obj.checkValidString("(*(()))((())())*(**(()))((*)()(()))*(())()(())(()"));
+//		System.out.println(obj.checkValidString("((*"));
+//		System.out.println(obj.checkValidString("(((()*())))((()(((()(()))()**(*)())))())()()*"));
+//		System.out.println(obj.checkValidString("(*(()))((())())*(**(()))((*)()(())	)*(())()(())(()"));
+//		System.out.println(obj.checkValidString("*"));
+//		System.out.println(obj.checkValidString("*)"));
+//		System.out.println(obj.checkValidString("((*)"));
+//		System.out.println(obj.checkValidString("(*)"));
+//		System.out.println(obj.checkValidString("(*))"));
+//		System.out.println(obj.checkValidString("()"));
+//		System.out.println(obj.checkValidString(""));
+//		System.out.println(obj.checkValidString("(((******)))"));
+//		System.out.println(obj.checkValidString("("));
+//		System.out.println(obj.checkValidString(")"));
+//		System.out.println(obj.checkValidString("(*()"));
+//		System.out.println(obj.checkValidString("(*())(()*((*(((()*())*()())(((((()*)()(((((()()))*)()))((())((((())))**(())()()()())((())(*())()*)()"));
 		
 		
 //		int a[][] = new int[10][5];
@@ -344,7 +344,11 @@ public class Application {
 //		char[][] a = {{'1','0','1','1','1'},{'1','0','1','0','1'},{'1','1','1','0','1'}};
 //		
 //		NumberOfIsland obj1 = new NumberOfIsland();
-//		System.out.println(obj1.numIslands(a));
+//		System.out.println(obj1.numIslands(a));ssss
+		
+		RotatedBST obj = new RotatedBST();
+		int[] a = {1,3};
+		System.out.println(obj.search(a, 3));
 	}
 
 }
