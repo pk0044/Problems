@@ -49,13 +49,7 @@ public class ConstructBSTFromPreOrder {
     				temp = st.pop();
     			}
     			
-				if(temp.val < preorder[i]) {
-					temp.right = child;
-				}
-
-    			if(st.isEmpty()) {
-    				temp.right = child;
-    			}
+    			temp.right = child;
     		}
     		
     		st.push(child);
