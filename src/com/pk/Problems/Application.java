@@ -2,6 +2,7 @@ package com.pk.Problems;
 
 import java.io.FileNotFoundException;
 import java.util.Scanner;
+import java.util.Stack;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -346,9 +347,14 @@ public class Application {
 //		NumberOfIsland obj1 = new NumberOfIsland();
 //		System.out.println(obj1.numIslands(a));ssss
 		
-		RotatedBST obj = new RotatedBST();
-		int[] a = {1,3};
-		System.out.println(obj.search(a, 3));
+//		RotatedBST obj = new RotatedBST();
+//		int[] a = {1,3};
+//		System.out.println(obj.search(a, 3));
+		
+		
+		Stack<Integer> st = new Stack<Integer>();
+		
+		System.out.println(st.pop());
 	}
 
 }
