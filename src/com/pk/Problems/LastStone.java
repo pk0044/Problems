@@ -41,7 +41,8 @@ public class LastStone {
 		while(!pq.isEmpty()) {
 			a = pq.poll();
 			
-			if()
+			
 		}
+		return a;
 	}
 }

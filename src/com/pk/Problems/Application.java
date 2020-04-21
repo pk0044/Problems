@@ -351,10 +351,14 @@ public class Application {
 //		int[] a = {1,3};
 //		System.out.println(obj.search(a, 3));
 		
+//		
+//		Stack<Integer> st = new Stack<Integer>();
+//		
+//		System.out.println(st.pop());
 		
-		Stack<Integer> st = new Stack<Integer>();
+		ConnectNodes obj = new ConnectNodes();
+		obj.construct();
 		
-		System.out.println(st.pop());
 	}
 
 }
